@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+header {
+    background-image: url('Diseño\ sin\ título.png')  ;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+ 
+}
+
+.container_logo_menu{
+    padding: 25px 0 ;
+    border-bottom:1px solid rgb(255, 255,255, .4);
+
+}
+
+.logo a {
+    display: block;
+    color: #fff;
+
+}
+.logo img {
+vertical-align: top;
+    
+}
+
+.menu {
+    text-align: right;
+    line-height: 50px;
+}
+.menu a {
+color: rgb(255, 255, 255);
+margin-left: 60px;
+font-size: 18px;
+text-decoration: none;
+
+}
+.text {
+    color: #fff;
+    text-align: center;
+    margin: 150px 0;
+}
+.first,
+.second{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    font-size: 35px;
+    list-style: 35px  ;
+    margin-bottom: 30px;
+}
+.second{
+    font-size: 25px;
+    list-style: 25px  ;
+    margin-bottom: 60px;
+}
+
+.contenedor-btn {
+ border-radius: 4px;
+border: 2px solid #fff;
+color: #fff;
+padding: 12px 0;
+font-weight: 600 ;
+width: 235px;
+display: inline-block;
+margin: 0 10px;
+text-align: center;
+margin-bottom: 60px;
+}
+.contenedor-btn a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.contenedor-btn:hover {
+text-decoration: none;
+background: rgb(156, 123, 60);
+color: #fff;
+}
+
+/*breeds */
+
+.Breeds h3 {
+    text-align: center ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(128, 116, 80);
+    margin-bottom: 70px;
+
+}
+
+.characteristics {
+
+    text-align: center;
+
+}
+.Breeds img{ 
+    vertical-align: top;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.Breeds h4 {font-weight: 700;
+ font-size: 20px;}
+
+ /*Pictures */
+.Pictures {
+    margin-bottom: 70px;
+
+}
+
+.image{
+    margin-bottom: 20px;
+}
+.farm img
+{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 100%;
+    border-radius: 3px ;
+    vertical-align: top;
+
+}
+.Pictures .title {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+   line-height: 32px ;
+
+}
+.Pictures .title {
+    color: orange;
+    text-transform: uppercase;
+}
+.right {
+text-align: right;
+}
+
+.Oferts {
+    background: url(Diseño\ sin\ título\ 2.png ) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    padding: 70px 0;
+}
+
+.Oferts h2 {
+text-align: center;
+color: #fff;
+margin-bottom: 30px;
+font-weight: 300;
+
+}
+
+
+ .yellow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background: rgba(255, 251, 133, 0.5);
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.Oferts .title {
+    text-align: center;
+    color: rgb(156, 123, 60) ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.Oferts .price {
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(156, 123, 60)    ;
+    background-color: rgb(255, 255, 255, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.characteristics {
+    list-style: none;
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+ .characteristics li{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dedede;
+ }
+ .yellow .btn{
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600 ;
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+ .yellow .btn:hover {
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    color:rgb(156, 123, 60);
+    }
+
+.Oferts .blue {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: rgba(81, 78, 250, 0.5);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+        padding: 50px 0;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+.blue .btn{
+   border-radius: 4px;
+   border: 2px solid #fff;
+   color: #fff;
+   padding: 12px 0;
+   font-weight: 600 ;
+   width: 100px;
+   display: inline-block;
+   margin: 0 10px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.blue.btn:hover {
+   text-decoration: none;
+   background: rgb(255, 255, 255);
+   color:rgb(156, 123, 60);
+   }
+   .Oferts .priceb {
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255)    ;
+    background-color:rgba(255, 251, 133, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titleb {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 100;
+    font-size: 39px;
+}
+
+
+
+
+/* reviews */
+.Review {
+    padding: 70px;
+
+    
+
+}
+
+.Review .foto1 {
+    width: 10%;
+    border-radius: 100%;
+    float: left;
+}
+
+
+.Review .foto2 {
+    width: 10%;
+    border-radius: 100%;
+    float: right;
+margin-top: -100px;
+margin-right: -100px;
+
+
+}
+.Review .parrafo2 {
+    float: right;
+    margin-right: 10%;
+ 
+}
+.Review .parrafo2 p{
+  
+justify-content: flex-end;
+display: flex;
+
+ 
+}
+
+.Review .name {
+    color: rgb(5, 52, 194);
+
+ 
+}
+
+
+/* footer */
+
+footer .title {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+footer .direction {
+background: #996428;
+padding: 30px 0;
+color: rgb(0, 0, 0);
+}
+
+footer .street, .email {
+    margin-bottom: 10px;
+
+    }
+footer .foto {
+padding: 50px 0;
+display: flex;
+justify-content: center;
+}
+
+footer .medias {
+ float: right;
+    }
+    footer .socialm {
+        background: rgba(59, 37, 18, 0.5) ;
+        margin-top: -10px;
+        gap: 20px;
+display: flex;
+   justify-content: center;
+           }
+           footer .socialm a {
+        
+ font-size: 200%;
+               }
+         footer  .facebook {
+            color: blue;
+         }
+         footer  .youtube {
+            color: rgb(255, 0, 0);
+         }
+         footer  .twitter {
+            color: rgb(0, 242, 255);
+         }
+
+         @media screen and (max-width: 992px) {
+            .container_logo_menu, .logo {
+                margin-bottom: 20px;
+                text-align: center;
+            }
+          
+            .menu {
+                text-align: center;
+            }
+            a{
+                margin: 0 10px;
+            }
+
+            .text {
+                margin: 50px 0;
+                font-size: 16px;
+            }
+            .first {
+                font-size: 1.5em;
+            }
+            
+            .Review .foto1  {
+                width: 30%;
+                margin-bottom: 50px;
+            }
+         
+            .Review .foto2  {
+                width: 30%;
+                margin-top: -150px;
+            }
+
+            .direction {
+              
+                text-align: center;
+                
+            }
+            .medias{
+                display: flex   ;
+                padding: 10px;
+                gap: 30px;
+             
+            }
+            .socialm {
+                text-align: center;
+                padding: 10 px 0;
+            }
+        }
+        
+        @media screen and (max-width:568px), (max-width:400px) {
+         
+                .container_logo_menu, .logo {
+                    margin-bottom: 10px;
+                    text-align: center;
+                    
+                }
+              
+                .menu {
+                    text-align: center;
+                }
+                a{
+                    margin: 0 5px;
+                }
+    
+                .text {
+                    margin: 50px 0;
+                    font-size: 16px;
+                }
+                .first {
+                    font-size: 1.5em;
+                }
+
+                .Review .foto1  {
+                    width: 50%;
+                    margin-bottom: 50px;
+                }
+             
+                .Review .foto2  {
+                    width: 50%;
+                    margin-top: -250px;
+                }
+           
+            }
+          
+        
